@@ -1,5 +1,9 @@
 # Endpoint and Identity Based Threat Detection Portfolio
 
+SOSSIM  Windows Defender For Endpoint Dashboard 
+<img width="1722" height="920" alt="image" src="https://github.com/user-attachments/assets/0c51a27b-6e07-4abe-b27f-1d1e4c1ed013" />
+
+
 This repo holds my alert investigation reports from a SOC simulation lab. Each report walks through one alert from start to finish: what triggered it, what I found in the logs, and what I decided.
 
 All the work was done in Microsoft Defender for Endpoint and Microsoft Sentinel against simulated attacks on a small Windows domain. The alerts cover things like credential theft with Mimikatz, Kerberoasting, malware hiding as a real Windows process, password stealing tools run through PowerShell, WDigest plaintext credential caching, and registry hive dumping to steal local password hashes.
